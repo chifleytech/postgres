@@ -1,4 +1,4 @@
-FROM postgres
+FROM postgres:11.5
 
 #Setup python
 RUN apt-get update && apt-get install -y \
